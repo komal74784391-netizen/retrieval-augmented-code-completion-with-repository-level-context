@@ -1,0 +1,7 @@
+{
+  "paper": "Retrieval-Augmented Code Completion with Repository-Level Context",
+  "dataset": "held-out-test",
+  "accuracy": 0.812,
+  "f1": 0.789,
+  "seed": 3
+}

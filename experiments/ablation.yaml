@@ -1,0 +1,7 @@
+hidden_size: 512
+num_layers: 4
+lr: 0.0005
+batch_size: 16
+train_path: data/train.jsonl
+expected_accuracy: 0.774
+expected_f1: 0.751
