@@ -1,6 +1,6 @@
 # Retrieval-Augmented Code Completion with Repository-Level Context
 
-> 🚧 **To be released.**
+> **Status: To be released.**
 > This repository will contain the official implementation, benchmark scripts and reproduction instructions for the paper below. The code is not final and must not be used yet.
 
 ## Coming Soon
