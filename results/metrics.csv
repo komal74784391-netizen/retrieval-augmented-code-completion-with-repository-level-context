@@ -1,0 +1,5 @@
+run,split,metric,value
+seed42,test,accuracy,0.731
+seed42,test,f1,0.702
+seed43,test,accuracy,0.727
+seed43,test,f1,0.699

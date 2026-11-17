@@ -1,0 +1,5 @@
+{"id": "s-001", "input": "def add(a, b):", "label": "return a + b"}
+{"id": "s-002", "input": "const list = [1, 2, 3];", "label": "list.map(x => x * 2)"}
+{"id": "s-003", "input": "class Parser:", "label": "    def parse(self, text):"}
+{"id": "s-004", "input": "fn main() {", "label": "    println!(\"hi\");"}
+{"id": "s-005", "input": "SELECT id FROM users", "label": "WHERE active = 1;"}

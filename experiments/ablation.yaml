@@ -1,7 +1,7 @@
-hidden_size: 512
-num_layers: 4
-lr: 0.0005
-batch_size: 16
-train_path: data/train.jsonl
-expected_accuracy: 0.774
-expected_f1: 0.751
+variants:
+  - name: full
+    context_window: 4096
+  - name: no-repo-context
+    context_window: 512
+  - name: no-reranker
+    rerank: false

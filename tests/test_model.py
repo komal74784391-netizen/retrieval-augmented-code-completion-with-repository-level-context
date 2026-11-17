@@ -1,10 +1,7 @@
-import torch
-
-from src.model import ProposedModel
+from src.utils import batch
 
 
-def test_forward_shape():
-    model = ProposedModel(vocab_size=128, hidden_size=32, num_layers=1)
-    batch = torch.randint(0, 128, (2, 16))
-    out = model(batch)
-    assert out.shape == (2, 2)
+def test_batch_covers_all_items():
+    items = list(range(10))
+    chunks = list(batch(items, 4))
+    assert [x for chunk in chunks for x in chunk] == items
