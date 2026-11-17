@@ -1,7 +1,1 @@
-variants:
-  - name: full
-    context_window: 4096
-  - name: no-repo-context
-    context_window: 512
-  - name: no-reranker
-    rerank: false
+placeholder: true

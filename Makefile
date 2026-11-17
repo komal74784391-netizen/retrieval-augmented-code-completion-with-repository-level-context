@@ -1,4 +1,1 @@
-.PHONY: test
-
-test:
-	pytest -q
+# Placeholder. Build targets will be added at release time.

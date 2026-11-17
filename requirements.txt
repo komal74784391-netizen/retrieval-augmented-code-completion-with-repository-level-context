@@ -1,6 +1,1 @@
-torch>=2.1
-numpy>=1.26
-pandas>=2.1
-scikit-learn>=1.4
-pyyaml>=6.0
-pytest>=8.0
+# Dependencies will be published together with the code release.

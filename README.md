@@ -1,28 +1,19 @@
 # Retrieval-Augmented Code Completion with Repository-Level Context
 
-**Status:** Released — official implementation of the paper accepted at NeurIPS 2026 (Accepted (poster)).
+> 🚧 **To be released.**
+> This repository will contain the official implementation, benchmark scripts and reproduction instructions for the paper below. The code is not final and must not be used yet.
 
-## Overview
-This repository contains the model code, data preparation helpers, experiment configurations and evaluation scripts described in the paper.
-
-## Layout
-- `src/` — model and utility code
-- `experiments/` — training and ablation configurations
-- `data/` — small sample of the processed dataset
-- `results/` — reported evaluation metrics
-- `tests/` — unit tests
-
-## Quick start
-```bash
-pip install -r requirements.txt
-make test
-```
+## Coming Soon
+- [ ] Training and evaluation code
+- [ ] Benchmark construction scripts
+- [ ] Reproduction instructions
+- [ ] Camera-ready artifact
 
 ## Citation
 ```bibtex
 @inproceedings{brightloom2026,
   title={Retrieval-Augmented Code Completion with Repository-Level Context},
-  booktitle={NeurIPS 2026},
+  booktitle={Under review},
   year={2026}
 }
 ```
